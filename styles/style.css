@@ -164,13 +164,12 @@ footer > p > a{
     font-size: 20px;
     padding-left: 10px;
 }
-/* ....................Media Quary..........
- .........................................*/
+
 
  /* .............Mobile Devices........... 
  ........................................*/
 
-@media only screen and (max-width:688px) {
+/* @media only screen and (max-width:688px) {
     
     }
     .container{
@@ -200,7 +199,7 @@ footer > p > a{
     }
     .match-sheduels{
         grid-template-columns: repeat(2, 1fr);
-    }
+    } */
       
 /* ---------------------------------------------
------------------------The End---------------- */
+-----------------------The End----------------
