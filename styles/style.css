@@ -1,0 +1,206 @@
+/*------------------ 
+        Fonts
+------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@&display=swap');
+/*----------------------- 
+        Common Style
+ -----------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    margin-top: 0;
+}
+p{
+    font-size: 16px;
+    color: #6C6C6C;
+    font-weight: 500;
+}
+
+/*----------------------- 
+     Top styles
+------------------------*/
+.top-part{
+    background-color: rgb(29, 29, 212);
+    margin-bottom: 50px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+       
+}
+h1{
+    font-size: 64px;
+    color: white;
+    font-weight: 700;
+    margin-top: 207px;
+    margin-left: 130px;
+}
+.event-name:hover{
+    color:tomato;
+    transform: rotate(360deg)
+}
+.event-name{
+    transition: color 5s, transform 5s 2s;
+}
+.live-link{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    background-color: #E02C6D;
+    margin-left: 150px;
+    padding: 10px 20px;
+}
+.half-width img{
+    width: 388px;
+    height: 428px;
+    margin: 135px 140px 114px 0px;   
+}
+/*---------------------------------------
+        Indivisual-players-styles
+---------------------------------------*/
+
+.player{
+    height: 474px;
+    width: 330px;
+    background-color: #fcfcfc;
+    padding: 10px;
+    
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    margin: 0 100px;
+    margin-bottom: 27px;
+}
+.player img{
+    width: 100%; 
+}
+/*----------------------- 
+        match-part
+------------------------*/
+.match-contant{  
+    margin-top: 100px;  
+    margin-left: 135px;
+}
+.match h2{
+    font-size: 48px;
+    color: #0A0826;   
+}
+.watch-link{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #E02C6D;
+    padding: 10px 20px;
+}
+.match-player{
+   margin-top: 80px;
+   margin-right: 100px;
+}
+.match-player img{
+   width: 70%;
+}
+/*------------------------------
+        Riseing Stars 
+-------------------------------*/
+.rising-stars{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.rising-players{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 30px;
+}
+.rising-players{
+    margin: 0 100px;
+    margin-top: 100px;
+}
+.new-star img{
+    width: 100%;
+}
+/* ---------------------------
+        Match Sheduels
+------------------------------ */
+.match-sheduels{
+    background-color: #FFFFFF;
+    height: 150px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 10px;
+    margin-left:  60px;
+}
+ h3{
+    color: tomato;
+    margin-left: 80px;
+}
+.single-sheduel img{
+    width: 80%;
+}
+.single-sheduel img:hover{
+    width: 100%;
+}
+/*----------------------------- 
+        Footer Section 
+----------------------------*/
+footer img{
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+footer{
+    background-color: #FFFFFF;
+    margin-top: 50px;
+}
+footer p{
+    text-align: center;
+}
+footer > p > a{
+    font-size: 20px;
+    padding-left: 10px;
+}
+/* ....................Media Quary..........
+ .........................................*/
+
+ /* .............Mobile Devices........... 
+ ........................................*/
+
+@media only screen and (max-width:688px) {
+    
+    }
+    .container{
+            grid-template-columns: repeat(1, 1fr);
+            justify-content: center;
+    }
+    .half-width img{
+        width: 60%; 
+    }
+    h1{
+        font-size: 40px;
+        margin-top: 100px;
+        align-items: center;
+    }
+    .players{
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+    .match-contant{
+        margin-left: 50px;
+    }
+    .match-player{
+        margin-left: 70px;
+    }
+    .rising-players{
+        grid-template-columns: 1fr;
+    }
+    .match-sheduels{
+        grid-template-columns: repeat(2, 1fr);
+    }
+      
+/* ---------------------------------------------
+-----------------------The End---------------- */
