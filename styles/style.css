@@ -130,7 +130,7 @@ h1{
     background-color: #FFFFFF;
     height: 150px;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-column-gap: 10px;
     margin-left:  60px;
 }
